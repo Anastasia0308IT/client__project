@@ -9,22 +9,120 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+    <header></header>
+
+    <main>
+      <section id="testimonial_area" class="section__padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="testmonial_slider_area text-center owl-carousel">
+                <div class="box-area">
+                <div class="img-area">
+                  <img src="assets/elina/woman_icon.png" alt="" />
+                </div>
+                <h5>Имя, профессия</h5>
+                <p class="content__card">Комментарий и отзыв</p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="assets/elina/man_icon.png" alt="" />
+                </div>
+                <h5>Имя, профессия</h5>
+                <p class="content__card">Комментарий и отзыв</p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="assets/elina/sport.png" alt="" />
+                </div>
+                <h5>Имя, профессия</h5>
+                <p class="content__card">Комментарий и отзыв</p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="assets/elina/woman2_icon.png" alt="" />
+                </div>
+                  <h5>Имя, профессия</h5>
+                  <p class="content__card">Комментарий и отзыв</p>
+              </div>
+                <div class="box-area">
+                  <div class="img-area">
+                    <img src="assets/elina/woman3_icon.png" alt="" />
+                  </div>
+                  <h5>Имя, профессия</h5>
+                  <p class="content__card">Комментарий и отзыв</p>
+                </div>
+                <div class="box-area">
+                  <div class="img-area">
+                    <img src="assets/elina/man2__icon.png" alt="" />
+                  </div>
+                  <h5>Имя, профессия</h5>
+                  <p class="content__card">Комментарий и отзыв</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/7819fd0fdd.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/7819fd0fdd.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script>
+      $(".testmonial_slider_area").owlCarousel({
+        autoplay: true,
+        slideSpeed: 1000,
+        items: 3,
+        loop: true,
+        nav: true,
+        navText: [
+          '<i class="fa fa-arrow-left"></i>',
+          '<i class="fa fa-arrow-right"></i>',
+        ],
+        margin: 30,
+        dots: true,
+        responsive: {
+          320: {
+            items: 1,
+          },
+          767: {
+            items: 2,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
