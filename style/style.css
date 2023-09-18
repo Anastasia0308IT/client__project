@@ -132,3 +132,25 @@
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* Block donations start*/
+
+.donations {
+  padding: 5%;
+}
+
+.donations_card-body {
+  background-color: #baa4f1;
+  border-radius: 10px;
+}
+
+.donations_card_text {
+  max-width: 60%;
+  padding: 3%;
+}
+
+.donations_paymant {
+  display: flex;
+}
+
+/* Block donations end*/
