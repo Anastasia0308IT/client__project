@@ -123,7 +123,25 @@
   .owl-nav {
     display: none;
   }
+  .container-fluid {
+    max-height: fit-content;
+  }
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+  .navbar-nav {
+    float: none;
+  }
+  .header__navbar-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  .header__btn {
+    margin-left: 0;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .box-area {
     text-align: center;
@@ -131,4 +149,12 @@
   .owl-nav {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (max-width: 372px) {
+  .navbar>.container-fluid {
+    flex-wrap: nowrap;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
