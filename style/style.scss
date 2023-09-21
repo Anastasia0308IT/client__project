@@ -4,7 +4,7 @@ $secondaryColor: white;
 
 #testimonial_area {
 	padding: 10% 0;
-    // background-image: url("client__project/assets/elina/wave.png");
+    // background-image: url("../assets/elina/wave.png");
 // }
 // .section__padding{
 // 	background-image: url("client__project/assets/elina/wave.png");
@@ -16,7 +16,7 @@ $secondaryColor: white;
 	background: #fff;
 	color: #000;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	margin: 100px 0;
+	margin: 90px 0;
 	border-radius: 20px;
 }
 .box-area h5 {
@@ -50,7 +50,12 @@ $secondaryColor: white;
 	height: 100%;
 	border-radius: 50%;
 }
-
+.wave__picture{
+	position: relative;
+	margin-bottom: -37%;
+	height: 300px;
+	width: 100%;
+}
 #testimonial_area .owl-nav {
 	position: absolute;
 	top: 50%;
@@ -74,10 +79,20 @@ $secondaryColor: white;
 	right: -60px;
 	top: -30px;
 }
+.footer-container {
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-top: 4%;
+	font-size: 14pt;
+
+}
 @media only screen and (max-width: 991px) {
 	.owl-nav {
 		display: none;
 	}
+	.box-area .img-area {
+		width: 130px;
+		height: 130px;}
 }
 @media only screen and (max-width: 767px) {
 	.box-area {
@@ -86,4 +101,8 @@ $secondaryColor: white;
 	.owl-nav {
 		display: none;
 	}
-}
+	.box-area .img-area {
+		width: 120px;
+		height: 120px;
+	}
+}}
