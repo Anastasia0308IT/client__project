@@ -26,6 +26,7 @@
 .navbar-brand {
   float: initial;
 }
+
 .header__btn {
   margin-left: 15px;
 }
@@ -33,6 +34,7 @@
 .navbar-nav {
   align-items: center;
 }
+
 .navbar-nav:last-child {
   margin-left: 10px;
 }
@@ -98,7 +100,8 @@
   width: 100%;
 }
 
-#testimonial_area .owl-prev, #testimonial_area .owl-next {
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -124,11 +127,26 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .box-area {
     text-align: center;
   }
+
   .owl-nav {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
+#description_block {
+  background-image: url(/assets/wave_line.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  margin: 10% 0;
+}
+
+.description_block_img {
+  width: 80%;
+}

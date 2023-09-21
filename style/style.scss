@@ -1,11 +1,12 @@
 $mainColor: black;
 $secondaryColor: white;
-$thirdColor:#FFF6D1;
+$thirdColor: #FFF6D1;
 
 #testimonial_area {
 	padding: 10% 0;
-    background: $thirdColor;
+	background: $thirdColor;
 }
+
 .box-area {
 	padding: 20%;
 	position: relative;
@@ -15,6 +16,7 @@ $thirdColor:#FFF6D1;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: 100px 0;
 }
+
 .box-area h5 {
 	font-size: 16px;
 	font-weight: bolder;
@@ -24,9 +26,11 @@ $thirdColor:#FFF6D1;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
 .box-area .content {
 	color: $mainColor;
 }
+
 .box-area .img-area {
 	width: 150px;
 	height: 150px;
@@ -41,6 +45,7 @@ $thirdColor:#FFF6D1;
 	border-radius: 50%;
 	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
+
 .box-area .img-area img {
 	width: 100%;
 	height: 100%;
@@ -52,7 +57,9 @@ $thirdColor:#FFF6D1;
 	top: 50%;
 	width: 100%;
 }
-#testimonial_area .owl-prev, #testimonial_area .owl-next {
+
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -62,24 +69,41 @@ $thirdColor:#FFF6D1;
 	background: #fff;
 	position: absolute;
 }
+
 #testimonial_area .owl-prev {
 	left: -60px;
 	top: -30px;
 }
+
 #testimonial_area .owl-next {
 	right: -60px;
 	top: -30px;
 }
+
 @media only screen and (max-width: 991px) {
 	.owl-nav {
 		display: none;
 	}
 }
+
 @media only screen and (max-width: 767px) {
 	.box-area {
 		text-align: center;
 	}
+
 	.owl-nav {
 		display: none;
 	}
+}
+
+#description_block {
+	background-image: url(/assets/wave_line.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	margin: 10% 0;
+}
+
+.description_block_img {
+	width: 80%;
 }
