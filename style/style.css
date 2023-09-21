@@ -162,6 +162,22 @@
 
 }/*# sourceMappingURL=style.css.map */
 
+
+#description_block {
+  background-image: url(/assets/wave_line.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  margin: 10% 0;
+}
+
+.description_block_img {
+  width: 90%;
+  border-radius: 20px;
+}
+
+
+
 /* Block donations start*/
 
 .donations {
