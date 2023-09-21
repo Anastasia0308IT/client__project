@@ -44,20 +44,18 @@
 
 #testimonial_area {
   padding: 10% 0;
-  background: #FFF6D1;
 }
-
-.box-area {
+#testimonial_area .box-area {
   padding: 20%;
   position: relative;
   display: block;
   background: #fff;
   color: #000;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 100px 0;
+  margin: 90px 0;
+  border-radius: 20px;
 }
-
-.box-area h5 {
+#testimonial_area .box-area h5 {
   font-size: 16px;
   font-weight: bolder;
   color: #0a69ed;
@@ -66,12 +64,10 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
-.box-area .content {
+#testimonial_area .box-area .content {
   color: black;
 }
-
-.box-area .img-area {
+#testimonial_area .box-area .img-area {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -85,20 +81,23 @@
   border-radius: 50%;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-
-.box-area .img-area img {
+#testimonial_area .box-area .img-area img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-
-#testimonial_area .owl-nav {
+#testimonial_area .wave__picture {
+  position: relative;
+  margin-bottom: -47%;
+  height: 300px;
+  width: 100%;
+}
+#testimonial_area #testimonial_area .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
 }
-
-#testimonial_area .owl-prev, #testimonial_area .owl-next {
+#testimonial_area #testimonial_area .owl-prev, #testimonial_area #testimonial_area .owl-next {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -108,21 +107,27 @@
   background: #fff;
   position: absolute;
 }
-
-#testimonial_area .owl-prev {
+#testimonial_area #testimonial_area .owl-prev {
   left: -60px;
   top: -30px;
 }
-
-#testimonial_area .owl-next {
+#testimonial_area #testimonial_area .owl-next {
   right: -60px;
   top: -30px;
 }
-
+#testimonial_area .footer-container {
+  margin-left: 5%;
+  margin-right: 7%;
+  margin-top: 4%;
+  font-size: 14pt;
+}
 @media only screen and (max-width: 991px) {
-  .owl-nav {
+  #testimonial_area .owl-nav {
     display: none;
   }
+  #testimonial_area .box-area .img-area {
+    width: 130px;
+    height: 130px;
   .container-fluid {
     max-height: fit-content;
   }
@@ -143,12 +148,17 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .box-area {
+  #testimonial_area .box-area {
     text-align: center;
   }
-  .owl-nav {
+  #testimonial_area .owl-nav {
     display: none;
   }
+  #testimonial_area .box-area .img-area {
+    width: 120px;
+    height: 120px;
+  }
+}/*# sourceMappingURL=style.css.map */
 
 }/*# sourceMappingURL=style.css.map */
 
@@ -173,8 +183,8 @@
 }
 
 /* Block donations end*/
-=======
-}
+
+
 
 @media (max-width: 372px) {
   .navbar>.container-fluid {
