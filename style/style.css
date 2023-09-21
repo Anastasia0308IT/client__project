@@ -145,6 +145,12 @@
   .header__btn {
     margin-left: 0;
   }
+  body .navbar-collapse.collapse {
+    display: none!important;
+  }
+  body .navbar-collapse.collapse.show {
+    display: block!important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
