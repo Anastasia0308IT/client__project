@@ -32,9 +32,55 @@
     <title>Document</title>
   </head>
   <body>
-    <header></header>
+    <header class="header bg-body-tertiary">
+        <nav class="navbar header__navbar navbar-expand-lg">
+          <div class="container-fluid header__container">
+            <div class="header__logo">
+              <a class="navbar-brand" href="#">
+                <img src="/assets/logo.svg" alt="" />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header__nav" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">О проекте</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Польза</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Экспертное мнение</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Контакты</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Финансирование проекта</a>
+                </li>
+                <div class="header__btn">
+                <button type="button" class="btn header__button">
+                  Поддержать проект
+                </button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
 
     <main>
+    </section>
       <section id="testimonial_area" class="section__padding">
         <img src="../assets/elina/wave.png" alt="" class="wave__picture">
         <div class="container">
@@ -89,6 +135,34 @@
         </div>
         </div>
       </section>
+
+      <div class="donations">
+          <div class="card mb-3" style="max-width: 80vw;">
+            <div class="row g-0">
+                <div class="donations_card-body">
+                  <div class="donations_card_text">
+                    <p class="card-text">Миссия нашей команды - сделать здоровую привычку фундаментальной для всех, отправной точкой к выбору секции современных, традиционных и будущих видов спорта. 
+                    </p>
+                    <p class="card-text">Главное, поддержав развитие нашего проекта, Вы также сможете помочь и другим детям! 
+                    Благодаря Вашей подписке, дети из неполных семей, сироты и многодетные семьи смогут также укреплять здоровье, делать первые шаги к финансовой независимости, ставить и достигать свои цели.
+                    </p>
+                    <p class="card-text">Благодаря Вам, о нас узнают корпорации, меценаты и просто неравнодушные люди, которые смогут быть уверены, что каждый из них получит огромную мотивацию и стимул к ЗОЖ.
+                    </p>
+                    <div class="donations_paymant">
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите сумму пожертвования" style="max-width: 24rem;">
+                      <a href="#" class="btn btn-primary">Поддержать разработку проекта</a>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">
+                        Я принимаю условия
+                      </label>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
     </main>
       <footer class="footer-container">
         <div class="row">
@@ -96,7 +170,7 @@
         <div class="footer__firstblock col">
           <p><i class="fa-solid fa-phone" style="color: #ea5d4a;"></i>+ 7 (495) 728-45-70</p>
           <p><i class="fa-solid fa-phone" style="color: #ea5d4a;"></i>+ 7 (985) 728-45-70</p>
-          <p><i class="fa-solid fa-phone" style="color: #ea5d4a;"></i>+7 (985)442-34-74</p>
+          <p><i class="fa-solid fa-phone" style="color: #ea5d4a;"></i>+ 7 (985) 442-34-74</p>
           <p><i class="fa-solid fa-at" style="color: #ea5d4a;"></i>mir.samozanyatyh@yandex.ru</p>
           <div class="contacts">
             <i class="fa-brands fa-vk" style="color: #ea5d4a;"></i>
@@ -104,7 +178,7 @@
           </div>
           </div>
           <div class="footer__secondblock col">
-            <h3>АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ<br />
+            <h3>автономная некоммерческая организация<br />
                ЦЕНТР ПОДДЕРЖКИ САМОЗАНЯТЫХ<br /> "МИР САМОЗАНЯТЫХ" <br />
               ИНН 9724016805 ОГРН 1207700247864</h3>
           </div>
@@ -117,6 +191,21 @@
           </div>
         </div>
     </footer>
+
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script

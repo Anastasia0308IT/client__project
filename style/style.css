@@ -1,3 +1,47 @@
+/* header */
+
+.container-fluid {
+  max-height: 60px;
+}
+
+.header__button {
+  border-radius: 100px;
+  border: none;
+  background-color: #8356F9;
+  color: #fff;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.header__nav {
+  flex-grow: 0;
+}
+
+.header__navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  float: initial;
+}
+.header__btn {
+  margin-left: 15px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+.navbar-nav:last-child {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #000;
+  margin-left: 5px;
+}
+
 #testimonial_area {
   padding: 10% 0;
 }
@@ -44,7 +88,7 @@
 }
 #testimonial_area .wave__picture {
   position: relative;
-  margin-bottom: -37%;
+  margin-bottom: -47%;
   height: 300px;
   width: 100%;
 }
@@ -84,8 +128,25 @@
   #testimonial_area .box-area .img-area {
     width: 130px;
     height: 130px;
+  .container-fluid {
+    max-height: fit-content;
   }
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+  .navbar-nav {
+    float: none;
+  }
+  .header__navbar-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  .header__btn {
+    margin-left: 0;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   #testimonial_area .box-area {
     text-align: center;
@@ -98,3 +159,38 @@
     height: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+}/*# sourceMappingURL=style.css.map */
+
+/* Block donations start*/
+
+.donations {
+  padding: 5%;
+}
+
+.donations_card-body {
+  background-color: #baa4f1;
+  border-radius: 10px;
+}
+
+.donations_card_text {
+  max-width: 60%;
+  padding: 3%;
+}
+
+.donations_paymant {
+  display: flex;
+}
+
+/* Block donations end*/
+
+
+
+@media (max-width: 372px) {
+  .navbar>.container-fluid {
+    flex-wrap: nowrap;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
