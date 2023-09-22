@@ -42,6 +42,48 @@
   margin-left: 5px;
 }
 
+.main__block3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+}
+.main__block3-column1 {
+  padding-left: 100px;
+  padding-top: 130px;
+}
+.main__block3-column1_h2 {
+  font-weight: bold;
+}
+.main__block3-column1_italic {
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 100px;
+}
+.main__block3-column1_bold {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 40px;
+}
+.main__block3-column1_logo {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.column1_download-app , .column1_download-google {
+  width: 35%;
+  padding-left: 15px;
+}
+.column1_download-google {
+  
+}
+.main__block3-column2_text {
+  padding-left: 100px;
+}
+#road {
+  width: 90%;
+  padding-top: 40px;
+}
+
 #testimonial_area {
   padding: 10% 0;
 }
@@ -203,6 +245,7 @@
 .donations_paymant {
   display: flex;
 }
+
 
 /* Block donations end*/
 
