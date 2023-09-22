@@ -1,7 +1,8 @@
 #testimonial_area {
   padding: 10% 0;
 }
-#testimonial_area .box-area {
+
+.box-area {
   padding: 20%;
   position: relative;
   display: block;
@@ -11,7 +12,8 @@
   margin: 90px 0;
   border-radius: 20px;
 }
-#testimonial_area .box-area h5 {
+
+.box-area h5 {
   font-size: 16px;
   font-weight: bolder;
   color: #0a69ed;
@@ -20,10 +22,12 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#testimonial_area .box-area .content {
+
+.box-area .content {
   color: black;
 }
-#testimonial_area .box-area .img-area {
+
+.box-area .img-area {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -37,23 +41,27 @@
   border-radius: 50%;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-#testimonial_area .box-area .img-area img {
+
+.box-area .img-area img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-#testimonial_area .wave__picture {
+
+.wave__picture {
   position: relative;
-  margin-bottom: -37%;
+  margin-bottom: -33%;
   height: 300px;
   width: 100%;
 }
-#testimonial_area #testimonial_area .owl-nav {
+
+#testimonial_area .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
 }
-#testimonial_area #testimonial_area .owl-prev, #testimonial_area #testimonial_area .owl-next {
+
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -63,37 +71,52 @@
   background: #fff;
   position: absolute;
 }
-#testimonial_area #testimonial_area .owl-prev {
+
+#testimonial_area .owl-prev {
   left: -60px;
   top: -30px;
 }
-#testimonial_area #testimonial_area .owl-next {
+
+#testimonial_area .owl-next {
   right: -60px;
   top: -30px;
 }
-#testimonial_area .footer-container {
+
+.footer-container {
   margin-left: 5%;
   margin-right: 7%;
   margin-top: 4%;
   font-size: 14pt;
+  font-family: Jost, Georgia, serif;
 }
+
+.fa-solid {
+  height: 5%;
+  width: 5%;
+}
+
+.fa-brands {
+  font-size: 27pt;
+  margin-right: 2%;
+}
+
 @media only screen and (max-width: 991px) {
-  #testimonial_area .owl-nav {
+  .owl-nav {
     display: none;
   }
-  #testimonial_area .box-area .img-area {
+  .box-area .img-area {
     width: 130px;
     height: 130px;
   }
 }
 @media only screen and (max-width: 767px) {
-  #testimonial_area .box-area {
+  .box-area {
     text-align: center;
   }
-  #testimonial_area .owl-nav {
+  .owl-nav {
     display: none;
   }
-  #testimonial_area .box-area .img-area {
+  .box-area .img-area {
     width: 120px;
     height: 120px;
   }

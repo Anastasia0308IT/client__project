@@ -4,8 +4,7 @@ $secondaryColor: white;
 
 #testimonial_area {
 	padding: 10% 0;
-    // background-image: url("../assets/elina/wave.png");
-// }
+}
 // .section__padding{
 // 	background-image: url("client__project/assets/elina/wave.png");
 // }
@@ -52,7 +51,7 @@ $secondaryColor: white;
 }
 .wave__picture{
 	position: relative;
-	margin-bottom: -37%;
+	margin-bottom: -33%;
 	height: 300px;
 	width: 100%;
 }
@@ -84,7 +83,15 @@ $secondaryColor: white;
     margin-right: 7%;
     margin-top: 4%;
 	font-size: 14pt;
-
+	font-family: Jost, Georgia, serif;
+}
+.fa-solid{
+	height:5%;
+	width: 5%;
+}
+.fa-brands{
+	font-size: 27pt;
+	margin-right: 2%;
 }
 @media only screen and (max-width: 991px) {
 	.owl-nav {
@@ -105,4 +112,4 @@ $secondaryColor: white;
 		width: 120px;
 		height: 120px;
 	}
-}}
+}
