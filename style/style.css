@@ -42,9 +42,85 @@
   margin-left: 5px;
 }
 
-/* road */
+/* main block 1 */
+.main__block {
+  padding-top: 50px;
+}
+.main__block1-column1 {
+  padding-top: 6%;
+}
+.main__block1_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.main__block1_grid-column1 {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px 1fr;
+  padding-top: 20px;
+}
+#main__block1-app {
+  padding-top: 4%;
+}
+#main__block1-logo {
+  margin-bottom: 20px;
+}
+#main__block1-description {
+  font-size: 18px;
+  padding-top: 8%;
+  text-align: center;
+}
+.icon1 {
+  width: 60px;
+}
+.icon2 {
+  width: 50px;
+}
+.main__block1-health , .main__block1-finance {
+  font-size: 18px;
+  text-decoration: underline 2px #FDDC4E;
+  line-height: 50px;
+  padding-left: 5px;
+}
+.children {
+  width: 45vw;
+}
+.main__block1-button {
+  text-align: left;
+  padding-top: 1%;
+}
+.join {
+  height: 40px;
+  width: 180px;
+  background: #F3ACC8;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+.main__block1-column2 {
+  text-align: right;
+}
+
+#form9 {
+  position: absolute;
+  width: 7%;
+  top: 35%;
+  right: 57%;
+}
+#form2 {
+  position: absolute;
+  top: 35%;
+  right: 52%;
+}
+#form8 {
+  position: absolute;
+  width: 9%;
+  top: 35%;
+  right: 60%;
+}
+/* main block 3 road */
 .main__block3 {
-  padding-top: 100px;
+  padding-top: 5%;
 }
 .main__block3-column1 {
   padding-top: 100px;
@@ -74,7 +150,7 @@
   padding-left: 100px;
 }
 #road {
-  width: 135%;
+  width: 134%;
   padding-top: 40px;
 }
 #form7 {
@@ -228,10 +304,22 @@
     width: 130px;
     height: 130px;
 }
-#form7 , #form1 , .develop__text , .donation_card_picture {
+#form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 {
   display: none;
 }
-
+#main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download {
+text-align: center;
+}
+.main__block3-column2_text , .main__block3-column1_italic , .footer__company , .footer__address , .footer {
+  text-align: center;
+  padding: 0;
+}
+#road {
+  width: 100%;
+}
+#formGroupExampleInput {
+  min-width: 128px;
+}
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
   .navbar-nav {
     float: none;
