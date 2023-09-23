@@ -136,6 +136,55 @@
   top: 35%;
   right: 60%;
 }
+
+/* main block 2 */
+.section__block2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px;
+  gap: 40px;
+}
+.section__block2 h4 {
+  width: 70%;
+  font-size: 150%;
+  font-weight: 600;
+}
+.section__block2 p {
+  font-size: large;
+}
+.section__block2 img {
+  max-width: 100%;
+  height: auto;
+}
+.section__block2__text {
+  width: 20%;
+}
+.section__block3 {
+  display: flex;
+  padding: 50px;
+  background-image: url("../assets/light_violet_block.png");
+}
+.section__block3__text1, .section__block3__text2 {
+  display: flex;
+  width: 17vw;
+  height: 35vh;
+  justify-content: center;
+  padding-left: 5px;
+  padding-top: 25px;
+  background-image: url("../assets/veronica/block.png");
+}
+.section__block3__text2 {
+  margin-top: 70px;
+}
+.section__block3__text1 p, .section__block3__text2 p {
+  width: 80%;
+}
+.section__block3__line {
+  width: 8vw;
+  height: 15vh;
+  align-self: center;
+}
+
 /* main block 3 road */
 .main__block3 {
   padding-top: 5%;
@@ -187,7 +236,7 @@
 }
 #form1 {
   position: absolute;
-  top: 310%;
+  
 }
 /* carousel */
 .opinion {
