@@ -11,6 +11,11 @@
   color: #fff;
 }
 
+.header__logo_img {
+  width: 150px;
+  margin-top: 15px;
+}
+
 .navbar-brand {
   margin: 0;
 }
