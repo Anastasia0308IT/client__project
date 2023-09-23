@@ -227,9 +227,10 @@
    .box-area .img-area {
     width: 130px;
     height: 130px;
-}
-#form7 , #form1 , .develop__text {
-  display: none;
+  }
+  #form7 , #form1 , .develop__text {
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
@@ -265,7 +266,7 @@
   }
 }/*# sourceMappingURL=style.css.map */
 
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 
 
 #description_block {
