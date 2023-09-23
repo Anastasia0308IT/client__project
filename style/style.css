@@ -174,7 +174,7 @@
 }
 #form1 {
   position: absolute;
-  top: 240%;
+  top: 310%;
 }
 /* carousel */
 .opinion {
@@ -295,74 +295,13 @@
 .develop {
   text-align: right;
   position: absolute;
-  top: 400%;
+  top: 460%;
 }
 .develop__link {
   text-decoration: none;
   color: #000;
 }
-@media only screen and (max-width: 991px) {
-   .owl-nav {
-    display: none;
-  }
-   .box-area .img-area {
-    width: 130px;
-    height: 130px;
-  }
-  #form7 , #form1 , .develop__text {
-    display: none;
-  }
-}
-#form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 {
-  display: none;
-}
-#main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download {
-text-align: center;
-}
-.main__block3-column2_text , .main__block3-column1_italic , .footer__company , .footer__address , .footer {
-  text-align: center;
-  padding: 0;
-}
-#road {
-  width: 100%;
-}
-#formGroupExampleInput {
-  min-width: 128px;
-}
-@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
-  .navbar-nav {
-    float: none;
-  }
-  .header__navbar-nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-  .header__btn {
-    margin-left: 0;
-  }
-  body .navbar-collapse.collapse {
-    display: none!important;
-  }
-  body .navbar-collapse.collapse.show {
-    display: block!important;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-   .box-area {
-    text-align: center;
-  }
-   .owl-nav {
-    display: none;
-  }
-   .box-area .img-area {
-    width: 120px;
-    height: 120px;
-  }
-}/*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=style.css.map */
 
 
 #description_block {
@@ -436,7 +375,69 @@ text-align: center;
 }
 /* Block donations end*/
 
+@media only screen and (max-width: 991px) {
+  .owl-nav {
+   display: none;
+ }
+  .box-area .img-area {
+   width: 130px;
+   height: 130px;
+ }
+ 
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+ .navbar-nav {
+   float: none;
+ }
+ .header__navbar-nav {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2,1fr);
+ }
+ .header__btn {
+   margin-left: 0;
+ }
+ body .navbar-collapse.collapse {
+   display: none!important;
+ }
+ body .navbar-collapse.collapse.show {
+   display: block!important;
+ }
+}
 
+@media only screen and (max-width: 767px) {
+  .box-area {
+   text-align: center;
+ }
+  .owl-nav {
+   display: none;
+ }
+  .box-area .img-area {
+   width: 120px;
+   height: 120px;
+ }
+ #form7 , #form1 , .develop__text {
+  display: none;
+}
+}
+#form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 {
+display: none;
+}
+#main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download {
+text-align: center;
+}
+.main__block3-column2_text , .main__block3-column1_italic , .footer__company , .footer__address , .footer {
+text-align: center;
+padding: 0;
+}
+#road {
+width: 100%;
+}
+#formGroupExampleInput {
+min-width: 128px;
+}
+}/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
 
 @media (max-width: 372px) {
   .navbar>.container-fluid {
