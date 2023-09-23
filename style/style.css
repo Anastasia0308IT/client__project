@@ -55,7 +55,7 @@
 .main__block3-column1_italic {
   font-size: 20px;
   font-style: italic;
-  padding-left: 100px;
+  padding-left: 15%;
 }
 .main__block3-column1_bold {
   font-size: 20px;
@@ -74,7 +74,7 @@
   padding-left: 100px;
 }
 #road {
-  width: 140%;
+  width: 135%;
   padding-top: 40px;
 }
 #form7 {
@@ -114,7 +114,7 @@
 .box-area h5 {
   font-size: 16px;
   font-weight: bolder;
-  color: #0a69ed;
+  color: #7273b5;
   margin-top: 10%;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -182,7 +182,7 @@
 
 /* footer */
 .footer-container {
-  margin-left: 5%;
+  margin-left: 9%;
   margin-right: 7%;
   margin-top: 4%;
   font-size: 9pt;
@@ -214,7 +214,7 @@
 .develop {
   text-align: right;
   position: absolute;
-  top: 427%;
+  top: 400%;
 }
 .develop__link {
   text-decoration: none;
@@ -228,7 +228,7 @@
     width: 130px;
     height: 130px;
 }
-#form7 , #form1 , .develop__text {
+#form7 , #form1 , .develop__text , .donation_card_picture {
   display: none;
 }
 
@@ -294,24 +294,49 @@
 /* Block donations start*/
 
 .donations {
-  padding: 5%;
+  padding-left: 10%;
 }
 
 .donations_card-body {
-  background-color: #baa4f1;
   border-radius: 10px;
+  background-color: #7273b5;
+}
+
+.donation_card_picture {
+  position: absolute;
+  left: 53%; top: -50%;
+  height: 210%;
 }
 
 .donations_card_text {
   max-width: 60%;
-  padding: 3%;
+  padding-left: 3%;
+  position: relative;
 }
 
 .donations_paymant {
   display: flex;
+  padding-bottom: 2%;
+  gap: 10px;
 }
-
-
+.card-text {
+  color: #fff;
+}
+.donation__button {
+  padding-top: 10px;
+}
+.button_donat {
+  background: #58BBAE;
+  border: #58BBAE;
+}
+.button_donat:hover {
+  background: #F3ACC8;
+  border: #F3ACC8;
+}
+.conditions {
+  font-weight: 300;
+  padding-top: 2px;
+}
 /* Block donations end*/
 
 
