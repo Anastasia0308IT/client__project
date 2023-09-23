@@ -18,6 +18,19 @@
 
 .navbar-brand {
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.header__logo_img-1 {
+  width: 100px;
+  height: 40px;
+}
+
+.header__logo_img-2 {
+  width: 100px;
+  height: 30px;
 }
 
 .header__nav {
