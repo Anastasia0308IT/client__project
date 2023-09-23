@@ -42,6 +42,7 @@
   margin-left: 5px;
 }
 
+/* road */
 .main__block3 {
   padding-top: 100px;
 }
@@ -90,10 +91,16 @@
   right: 265px;
   top: 115px;
 }
-#testimonial_area {
-  padding: 10% 0;
+#form1 {
+  position: absolute;
+  top: 240%;
 }
-#testimonial_area .box-area {
+/* carousel */
+.opinion {
+  text-align: center;
+  text-decoration: underline;
+}
+.box-area {
   padding: 20%;
   position: relative;
   display: block;
@@ -103,7 +110,8 @@
   margin: 90px 0;
   border-radius: 20px;
 }
-#testimonial_area .box-area h5 {
+
+.box-area h5 {
   font-size: 16px;
   font-weight: bolder;
   color: #0a69ed;
@@ -112,10 +120,12 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#testimonial_area .box-area .content {
+
+.box-area .content {
   color: black;
 }
-#testimonial_area .box-area .img-area {
+
+.box-area .img-area {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -129,23 +139,27 @@
   border-radius: 50%;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-#testimonial_area .box-area .img-area img {
+
+.box-area .img-area img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-#testimonial_area .wave__picture {
+
+.wave__picture {
   position: relative;
-  margin-bottom: -47%;
+  margin-bottom: -39%;
   height: 300px;
   width: 100%;
 }
-#testimonial_area #testimonial_area .owl-nav {
+
+#testimonial_area .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
 }
-#testimonial_area #testimonial_area .owl-prev, #testimonial_area #testimonial_area .owl-next {
+
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -155,30 +169,67 @@
   background: #fff;
   position: absolute;
 }
-#testimonial_area #testimonial_area .owl-prev {
+
+#testimonial_area .owl-prev {
   left: -60px;
   top: -30px;
 }
-#testimonial_area #testimonial_area .owl-next {
+
+#testimonial_area .owl-next {
   right: -60px;
   top: -30px;
 }
-#testimonial_area .footer-container {
+
+/* footer */
+.footer-container {
   margin-left: 5%;
   margin-right: 7%;
   margin-top: 4%;
-  font-size: 14pt;
+  font-size: 9pt;
+  font-family: Jost, Georgia, serif;
+  font-weight: normal;
+}
+.footer__logoblock {
+  padding-bottom: 20px;
+}
+.footer__secondblock, .footer-thirdblock {
+  margin-top: 14%;
+}
+
+.fa-solid {
+  height: 5%;
+  width: 5%;
+}
+.footer__contacts {
+  padding-left: 25px;
+}
+.fa-brands {
+  font-size: 29pt;
+  margin-right: 3%;
+  margin-left: 10%;
+}
+.it_girl_logo {
+  width: 10%;
+}
+.develop {
+  text-align: right;
+  position: absolute;
+  top: 427%;
+}
+.develop__link {
+  text-decoration: none;
+  color: #000;
 }
 @media only screen and (max-width: 991px) {
-  #testimonial_area .owl-nav {
+   .owl-nav {
     display: none;
   }
-  #testimonial_area .box-area .img-area {
+   .box-area .img-area {
     width: 130px;
     height: 130px;
-  .container-fluid {
-    max-height: fit-content;
-  }
+}
+#form7 , #form1 , .develop__text {
+  display: none;
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
@@ -202,13 +253,13 @@
 }
 
 @media only screen and (max-width: 767px) {
-  #testimonial_area .box-area {
+   .box-area {
     text-align: center;
   }
-  #testimonial_area .owl-nav {
+   .owl-nav {
     display: none;
   }
-  #testimonial_area .box-area .img-area {
+   .box-area .img-area {
     width: 120px;
     height: 120px;
   }
