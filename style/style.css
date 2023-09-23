@@ -11,6 +11,11 @@
   color: #fff;
 }
 
+.header__logo_img {
+  width: 150px;
+  margin-top: 15px;
+}
+
 .navbar-brand {
   margin: 0;
 }
@@ -303,6 +308,10 @@
    .box-area .img-area {
     width: 130px;
     height: 130px;
+  }
+  #form7 , #form1 , .develop__text {
+    display: none;
+  }
 }
 #form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 {
   display: none;
@@ -353,7 +362,7 @@ text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
 
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 
 
 #description_block {

@@ -32,12 +32,12 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header bg-body-tertiary">
+    <header class="header">
         <nav class="navbar header__navbar navbar-expand-lg">
           <div class="container-fluid header__container">
             <div class="header__logo">
               <a class="navbar-brand" href="#">
-                <img src="assets/logo_deti2.png" alt="" />
+                <img class="header__logo_img" src="assets/logo_deti2.png" alt="" />
               </a>
             </div>
             <button
@@ -57,16 +57,16 @@
                   <a class="nav-link" href="#">О проекте</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Польза</a>
+                  <a class="nav-link" href="#description_block">Польза</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Экспертное мнение</a>
+                  <a class="nav-link" href="#testimonial_area">Экспертное мнение</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Контакты</a>
+                  <a class="nav-link" href="#contacts">Контакты</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Финансирование проекта</a>
+                  <a class="nav-link" href="#donations">Финансирование проекта</a>
                 </li>
                 <div class="header__btn">
                 <button type="button" class="btn header__button">
@@ -220,7 +220,7 @@
         </div>
       </section>
 
-      <div class="donations">
+      <div id="donations" class="donations">
         <div class="card mb-3" style="max-width: 80vw;">
           <div class="row g-0">
               <div class="donations_card-body">
@@ -255,7 +255,7 @@
 
     </main>
 
-    <footer class="footer-container">
+    <footer id="contacts" class="footer-container">
       <div class="row footer">
       <div class="footer__firstblock col-12 col-sm-3">
         <img class="footer__logoblock" src="assets/logo_deti1.png" alt="logo" />
