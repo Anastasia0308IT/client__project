@@ -128,7 +128,12 @@
   top: 35%;
   right: 60%;
 }
-
+#form5 {
+  position: absolute;
+  width: 40%;
+  left: 500px;
+  top: 630px;
+}
 /* main block 2 */
 .section__block2 {
 margin-top: 7%;
@@ -436,6 +441,7 @@ margin-bottom: 6%;
   min-width: 250px;
 }
 
+
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
  .navbar-nav {
    float: none;
@@ -471,7 +477,7 @@ margin-bottom: 6%;
   display: none;
 }
 }
-#form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 , .main__block2-shema {
+#form7 , #form1 , #form5 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 , .main__block2-shema {
 display: none;
 }
 #main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download , .main__block2-column2 , .description_block1 , .description_block2 {
