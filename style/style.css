@@ -1,19 +1,12 @@
 /* header */
-
-.container-fluid {
-  max-height: 60px;
+.header {
+  padding-top: 1%;
 }
-
 .header__button {
   border-radius: 100px;
   border: none;
   background-color: #8356F9;
   color: #fff;
-}
-
-.header__logo_img {
-  width: 150px;
-  margin-top: 15px;
 }
 
 .navbar-brand {
@@ -24,13 +17,12 @@
 }
 
 .header__logo_img-1 {
-  width: 100px;
   height: 40px;
 }
 
 .header__logo_img-2 {
-  width: 100px;
   height: 30px;
+  padding-left: 10%;
 }
 
 .header__nav {
@@ -45,19 +37,16 @@
   float: initial;
 }
 .header__btn {
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .navbar-nav {
   align-items: center;
 }
-.navbar-nav:last-child {
-  margin-left: 10px;
-}
 
 .nav-link {
   color: #000;
-  margin-left: 5px;
+  margin-left: 30px;
 }
 
 /* main block 1 */
@@ -115,6 +104,9 @@
   color: #fff;
   font-size: 18px;
 }
+.join:hover {
+  background: #58BBAE;
+}
 .main__block1-column2 {
   text-align: right;
 }
@@ -139,18 +131,16 @@
 
 /* main block 2 */
 .section__block2 {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 40px;
-  gap: 40px;
+margin-top: 7%;
+margin-bottom: 6%;
 }
 .section__block2 h4 {
-  width: 70%;
   font-size: 150%;
   font-weight: 600;
+  padding-bottom: 4%;
 }
 .section__block2 p {
-  font-size: large;
+  font-size: 18px;
 }
 .section__block2 img {
   max-width: 100%;
@@ -171,7 +161,7 @@
   justify-content: center;
   padding-left: 5px;
   padding-top: 25px;
-  background-image: url("../assets/veronica/block.png");
+  background-image: url("../assets/sticker.png");
 }
 .section__block3__text2 {
   margin-top: 70px;
@@ -352,18 +342,18 @@
   margin-left: 10%;
 }
 .it_girl_logo {
-  width: 10%;
+  width: 15%;
 }
 .develop {
   text-align: right;
-  position: absolute;
-  top: 460%;
 }
 .develop__link {
   text-decoration: none;
-  color: #000;
+  color: #e26094
 }
-
+.develop__link:hover {
+  color: #58BBAE;
+}
 
 
 #description_block {
@@ -484,7 +474,7 @@
 #form7 , #form1 , .develop__text , .donation_card_picture , .main__block3-column1_logo , #form2 , #form9 , #form8 {
 display: none;
 }
-#main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download {
+#main__block1-app , #main__block1-innovation , .main__block1-logo_img , .children__img , .main__block1-button , .main__block3-column1_h2 , .main__block3-column1_bold , .main__block3-column1_download , .main__block2-column2 , .description_block1 , .description_block2 {
 text-align: center;
 }
 .main__block3-column2_text , .main__block3-column1_italic , .footer__company , .footer__address , .footer {
