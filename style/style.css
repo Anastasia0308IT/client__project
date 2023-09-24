@@ -452,7 +452,7 @@ margin-bottom: 6%;
    grid-template-rows: repeat(2,1fr);
  }
  .header__btn {
-   margin-left: 35px;
+   margin-left: 25px;
  }
  body .navbar-collapse.collapse {
    display: none!important;
