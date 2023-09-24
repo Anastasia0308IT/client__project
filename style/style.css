@@ -416,7 +416,22 @@ margin-bottom: 6%;
    width: 130px;
    height: 130px;
  }
- 
+ .donation_card_picture {
+  position: absolute;
+  left: 25%;
+}
+.donations_card_text {
+  padding: 5%;
+}
+.donations_paymant {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+.button_donat {
+  min-width: 250px;
+}
+
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
  .navbar-nav {
    float: none;
@@ -466,7 +481,7 @@ padding: 0;
 width: 100%;
 }
 #formGroupExampleInput {
-min-width: 128px;
+min-width: 130px;
 }
 }/*# sourceMappingURL=style.css.map */
 
